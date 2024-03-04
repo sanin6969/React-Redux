@@ -8,6 +8,9 @@ function Aside() {
   const handleColor=()=>{
     dispatch(change_color({color:randomColor()}))
   }
+
+
+  
   return (
     <div>
       <div className=" text-right m-10 border-2 p-5" style={{ backgroundColor:color}}>
